@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>		
     </properties>
     <build>
-        <finalName>ROOT</finalName>
+        <finalName>ta-na-lista</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -38,12 +38,12 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>C:\apache-tomcat-9.0.62\webapps</outputDirectory>
+                            <outputDirectory>C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>/target</directory>
                                     <includes>
-                                        <include>ROOT.war</include>
+                                        <include>ta-na-lista.war</include>
                                     </includes>
                                 </resource>
                             </resources>

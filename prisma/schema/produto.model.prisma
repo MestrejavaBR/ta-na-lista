@@ -1,0 +1,12 @@
+model Produto {
+  id          Int        @id @default(autoincrement())
+  categoriaId Int?
+  
+  nome        String
+  preco       Float?
+  imagemUrl   String?
+
+  dataUltimoPreco DateTime
+
+  categoria   Categoria? @relation(fields: [categoriaId], references: [id])
+}

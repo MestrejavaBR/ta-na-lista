@@ -28,4 +28,6 @@ Thumbs.db
 *.jar
 
 # Arquivos de ambiente
-.env
+/src/generated/prisma
+/prisma/migrations
+node_modules
