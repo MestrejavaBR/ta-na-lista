@@ -1,0 +1,9 @@
+model ItemLista {
+  id         Int         @id @default(autoincrement())
+  listaId    Int
+  lista      ListaCompra @relation(fields: [listaId], references: [id])
+  produtoId  Int
+  produto    Produto     @relation(fields: [produtoId], references: [id])
+  quantidade Int         @default(1)
+  comprado   Boolean     @default(false)
+}

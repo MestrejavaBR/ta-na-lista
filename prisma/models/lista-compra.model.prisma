@@ -1,0 +1,8 @@
+model ListaCompra {
+  id        Int         @id @default(autoincrement())
+  nome      String
+  usuarioId Int
+  usuario   Usuario     @relation(fields: [usuarioId], references: [id])
+  itens     ItemLista[]
+  criadaEm  DateTime    @default(now())
+}

@@ -1,0 +1,12 @@
+// https://github.com/keonik/prisma-erd-generator
+generator erd {
+  provider = "prisma-erd-generator"
+  output   = "../../.doc/diagrams/ta-na-lista.svg"  // *.svg, *.png, *.pdf, *.md
+  theme    = "default" // default, forest, dark, neutral
+
+  // tableOnly = true
+  ignoreEnums = true
+  // includeRelationFromFields = true
+  disableEmoji = true
+
+}

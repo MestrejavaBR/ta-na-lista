@@ -1,0 +1,5 @@
+// https://github.com/luisrudge/prisma-generator-fake-data
+generator fake_data_generator {
+    provider = "prisma-generator-fake-data"
+    output   = "../seeds/fake-data.ts"
+}

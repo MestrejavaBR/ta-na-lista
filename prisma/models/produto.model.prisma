@@ -1,0 +1,13 @@
+model Produto {
+  id          Int         @id @default(autoincrement())
+  nome        String
+  descricao   String?
+  preco       Float
+  categoriaId Int
+  categoria   Categoria   @relation(fields: [categoriaId], references: [id])
+  itensLista  ItemLista[]
+  destaque    Boolean     @default(false)
+  promocao    Boolean     @default(false)
+  novo        Boolean     @default(false)
+  teste      Boolean     @default(false)
+}

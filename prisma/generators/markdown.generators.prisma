@@ -1,0 +1,7 @@
+// // https://github.com/samchon/prisma-markdown
+
+// generator markdown {
+//   provider = "prisma-markdown"
+//   output = "../../.doc/diagrams/ta-na-lista.md"
+//   title    = "teste"
+// }

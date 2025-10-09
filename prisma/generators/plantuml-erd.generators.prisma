@@ -1,0 +1,12 @@
+// // https://github.com/dbgso/prisma-generator-plantuml-erd/tree/main/packages/generator
+// generator erd_plantuml {
+//   provider   = "prisma-generator-plantuml-erd"
+//   output = "../../.doc/diagrams/ta-na-lista.puml"
+//   exportPerTables      = true
+//   showUniqueKeyLabel = true
+//   isShowForeignKeyOnRelation = true
+//   // markdownOutput       = "./example-tables.md"
+//   // markdownIncludeERD      = true
+//   // asciidocOutput       = "./example-tables.adoc"
+//   // asciidocIncludeERD      = true
+// }
